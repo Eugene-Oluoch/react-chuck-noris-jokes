@@ -1,0 +1,65 @@
+.container {
+    position: relative;
+    width: 95%;
+    max-width: 400px;
+    text-align: center;
+    background-color: #313a49;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.quote-number {
+    color: #52feaa;
+    font-size: .6rem;
+    padding-bottom: 1rem;
+}
+
+.quote-desc {
+    margin-top: 1rem;
+    color: #b9ccd3;
+    padding: 0 .5rem;
+}
+
+.quotes-marks {
+    position: relative;
+    top: 1.7rem;
+    color: #b9ccd3;
+    font-size: 2rem;
+}
+
+.quotes-button {
+    position: absolute;
+    bottom: -1rem;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes-button button {
+    background-color: #52feaa;
+    border: 1px solid #52feaa;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.quotes-button button:hover {
+    transition: .3s ease-in-out;
+    box-shadow: 0 0 1rem .2rem #52feaa;
+}
+
+.quotes-button img {
+    height: 1rem;
+}
+
+hr {
+    color: #3d495b;
+    margin-bottom: 2rem;
+}
